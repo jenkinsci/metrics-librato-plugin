@@ -52,9 +52,6 @@ public class PluginImpl extends Plugin {
             reporters = new LinkedHashMap<LibratoService, LibratoReporter>();
         }
         MetricRegistry registry = Metrics.metricRegistry();
-        if (registry == null) {
-            return;
-        }
         LibratoService.DescriptorImpl descriptor =
                 Jenkins.getInstance().getDescriptorByType(LibratoService.DescriptorImpl.class);
         if (descriptor == null) {
