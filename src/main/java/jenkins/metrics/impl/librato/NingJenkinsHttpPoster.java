@@ -1,8 +1,7 @@
-package com.codahale.metrics.jenkins.librato;
+package jenkins.metrics.impl.librato;
 
 import com.librato.metrics.Authorization;
 import com.librato.metrics.HttpPoster;
-import com.librato.metrics.NingHttpPoster;
 import com.ning.http.client.AsyncHttpClient;
 import jenkins.plugins.asynchttpclient.AHC;
 

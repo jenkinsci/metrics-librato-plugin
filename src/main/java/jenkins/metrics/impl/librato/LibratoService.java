@@ -1,4 +1,4 @@
-package com.codahale.metrics.jenkins.librato;
+package jenkins.metrics.impl.librato;
 
 import hudson.Extension;
 import hudson.model.AbstractDescribableImpl;

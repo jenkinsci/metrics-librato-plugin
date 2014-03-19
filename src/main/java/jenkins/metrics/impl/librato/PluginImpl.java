@@ -1,8 +1,8 @@
-package com.codahale.metrics.jenkins.librato;
+package jenkins.metrics.impl.librato;
 
 import com.codahale.metrics.MetricFilter;
 import com.codahale.metrics.MetricRegistry;
-import com.codahale.metrics.jenkins.Metrics;
+import jenkins.metrics.api.Metrics;
 import com.librato.metrics.LibratoReporter;
 import hudson.Plugin;
 import jenkins.model.Jenkins;
